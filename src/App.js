@@ -4,7 +4,7 @@ import Navbar from './Components/NavBar';
 import Home from './Pages/Home';
 import RecipeDetails from './Pages/RecipeDetails';
 import Search from './Pages/Search';
-import './Styles/App.css';
+// import './Styles/App.css';
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path element={<Home />} />
           <Route path="/recipe/:id" element={<RecipeDetails />} />
           <Route path="/search" element={<Search />} />
         </Routes>
