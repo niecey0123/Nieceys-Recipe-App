@@ -1,0 +1,17 @@
+.recipe-card {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .recipe-card h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  

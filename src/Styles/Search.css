@@ -1,0 +1,16 @@
+.search {
+    text-align: center;
+  }
+  
+  .search input {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .search button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
